@@ -1,3 +1,3 @@
 # AED
 
-El compilador instalado fue el MinGW 9.2 y el IDE es Visual Studio Code
+El compilador instalado fue el MinGW y el IDE que uso es el Visual Studio Code
