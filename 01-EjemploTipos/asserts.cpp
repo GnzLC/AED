@@ -37,7 +37,7 @@ int main(){
     assert(64/8==8);
     assert(100-99 == 1);
     assert(2 - 3 == -1);
-    //double?
+    //double
     assert(-0.3 <= -0.33);
     printf ("Todo bien\n");
 }
