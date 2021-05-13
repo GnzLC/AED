@@ -24,8 +24,8 @@ int main(){
 
     assert("hola" == "hola");
     assert("hola" != "chau");
-    assert(string("hola")+ string(" mundo") =="hola mundo");
-    assert(string("hola").length()==4);
+    assert("hola"s+ " mundo"s=="hola mundo");
+    assert("hola"s.length()==4);
 
     //int
     assert(1 == 1);
@@ -47,6 +47,9 @@ int main(){
     assert(3.5-2.5==1.0);
     assert(4.0*4.0==16.0);
     assert(64.0/8.0==8.0);
+
+    assert(10E-3==0.01);
+    assert(10E+3==10000);
 
     //unsigned 
     assert(1u == 1u);
